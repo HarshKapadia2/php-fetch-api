@@ -22,7 +22,7 @@ function fetch_get()
 {
 	fetch
 	(
-		"/api/get.php",
+		"../api/get.php",
 		{
 			method: "GET",
 			headers: {
@@ -40,7 +40,7 @@ function fetch_post(value)
 {
 	fetch
 	(
-		"/api/post.php",
+		"../api/post.php",
 		{
 			method: "POST",
 			headers: {
