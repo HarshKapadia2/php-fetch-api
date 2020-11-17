@@ -2,7 +2,7 @@ const ul = document.querySelector("ul");
 
 fetch
 (
-	"http://localhost/php-fetch-api/api/get.php",
+	"/api/get.php",
 	{
 		method: "GET",
 		headers: {
