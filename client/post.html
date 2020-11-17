@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script defer src="./get-post.js"></script>
+
+		<title>Post Data</title>
+	</head>
+
+	<body>
+		<h1>Post Data</h1>
+
+		<div>Data on server before submit:</div>
+		<ul id="data-before"></ul>
+
+		<form action="" method="POST">
+			<label for="age">Change age to </label>
+			<input type="number" name="age" id="age">
+			<br><br>
+
+			<button type="submit">Submit</button>
+		</form>
+		<br>
+
+		<div>Data on server after submit:</div>
+		<ul id="data-after"></ul>
+
+		<a href="./index.html">Home Page</a>
+	</body>
+</html>
